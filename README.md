@@ -31,12 +31,12 @@ Step1 : In the test plan all the values needed for test execution have been para
 	
         pThreadcount - No of threads/ VUsers required for testing (In the assignment asked for half of category ID counts, it was 10 category IDs, therefore used 5 as threadcount) This is used in Ultimate Thread Group - This is used in Constant Througput timer
 	
-        pServer- Also parameterized the server details
+	pServer- Also parameterized the server details
 	
 	
-	Test Results
+Test Results
         
-	Summary
+Summary
 	
 	Test was executed in both GUI and non GUI mode. The objective of the test is to verify the response of the API whether it is within SLA of 500ms.
 	
@@ -47,5 +47,10 @@ Step1 : In the test plan all the values needed for test execution have been para
 	There was an error rate which was due to one Assertion failed for 1 test data in all rounds. it get the different response and response assretion was failed.
 	
 	Considering all the test results this test can be marked as Pass
+	
+	
+        
+	
+	
 	
 	
