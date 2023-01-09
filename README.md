@@ -34,4 +34,18 @@ Step1 : In the test plan all the values needed for test execution have been para
         pServer- Also parameterized the server details
 	
 	
+	Test Results
         
+	Summary
+	
+	Test was executed in both GUI and non GUI mode. The objective of the test is to verify the response of the API whether it is within SLA of 500ms.
+	
+	4 rounds of test were executed
+	
+	90th Percent response time were within SLA of 500ms during 3 rounds and in 1 round 90th percent response time was 504
+	
+	There was an error rate which was due to one Assertion failed for 1 test data in all rounds. it get the different response and response assretion was failed.
+	
+	Considering all the test results this test can be marked as Pass
+	
+	
