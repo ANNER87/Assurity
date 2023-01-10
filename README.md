@@ -72,9 +72,9 @@ Summary
 	
 **The objective of the test is to verify the response of the API whether it is within SLA of 500ms during the load test.
 	
-**4 rounds of test were executed in both GUI and non GUI mode. 
+**Four rounds of test were executed in both GUI and non GUI mode. 
 	
-**90th Percent response time were within SLA of 500ms during 3 rounds and in 1 round 90th percent response time was 504ms
+**During the second test observed 90th percent response time was 504ms which has breached SLA. Therefore, executed another round of test and response times were within SLA.
 	
 **There was an error rate which was due to one Assertion failed for 1 test data in all rounds. It get the different response and response assretion was failed.
 	
@@ -115,15 +115,16 @@ Test Results
         JTL file of the results of Non GUI mode  - testresult.jtl - This one can be opend from JMeter tool as well
         
 	HTML Report - Genarted the HTML report from the Non GUI test results as an additional thing as test round 5 which has not considred for the analysis
-	
+
+Performance Test Results Analysis Report - Assurity Assignment - Word Document whcich has executive summary, observations and recommendations.
 	
 Assumptions
 
 	**There were 10 category IDs so considered half the count and take the VUser count as 5 
 
- 	**Did not considred ramp down time
+ 	**Did not consider ramp down time
 
-	**Added HTTP Cache manager and Cookie Manger to simulate the browser behaviour
+	**Added HTTP Cache Manager and Cookie Manager to simulate the browser behaviour
 
  	**Executed the test in local machine and did not consider the distrubted architecture as test for 1 min and very low load
 	
