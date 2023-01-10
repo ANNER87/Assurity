@@ -15,11 +15,11 @@ Step2: Install Plugins Manger to JMeter as using some of additional elements.
         
 	Download  plugins-manager.jar https://jmeter-plugins.org/install/Install/ and put it into lib/ext directory, then restart JMeter.
 	
-Step3: Download the sscript folder along with test data file
+Step3: Download the script folder along with test data file
 
-Step4: Open JMeter and open the .jmx file
+Step4: Open JMeter and open the Assignment_AnnRoshaliSilva.jmx file
 
-Step5: Install the elements which are not in the initial JMeter
+Step5: Install the elements which are not in the initial JMeterfrom Plugin Manager
 
 
 Test Execution
@@ -70,20 +70,20 @@ Test Results
 Summary
 
 	
-**The objective of the test is to verify the response of the API whether it is within SLA of 500ms.
+**The objective of the test is to verify the response of the API whether it is within SLA of 500ms during the load test.
 	
 **4 rounds of test were executed in both GUI and non GUI mode. 
 	
 **90th Percent response time were within SLA of 500ms during 3 rounds and in 1 round 90th percent response time was 504ms
 	
-**There was an error rate which was due to one Assertion failed for 1 test data in all rounds. it get the different response and response assretion was failed.
+**There was an error rate which was due to one Assertion failed for 1 test data in all rounds. It get the different response and response assretion was failed.
 	
-**Considering all the test results this test can be marked as PASS
+**Considering all the test results this test can be marked as PASS as 3 test were within SLA.
 	
 	
 Observation:
 
-#The following was 90th Percentile respponse time during 4 round of test execution
+#The following was 90th Percentile response time during 4 round of test execution
 
 	Test 1 - 454ms - Within SLA of 500ms
 	
@@ -110,7 +110,7 @@ Test Results
 
 	Print files - All the files printed with correlations values for each test execution.
 	
-	Aggregate Test - The files with Aggreate test logs and aggreate results table for each test execution.
+	Aggregate Test - The files with Aggregate test logs and aggregate results table for each test execution.
         
         JTL file of the results of Non GUI mode  - testresult.jtl - This one can be opend from JMeter tool as well
         
@@ -123,7 +123,7 @@ Assumptions
 
  	**Did not considred ramp down time
 
-	**Added HTTP Cache manager and Cookie Manger to simulate the borwser behaviour
+	**Added HTTP Cache manager and Cookie Manger to simulate the browser behaviour
 
  	**Executed the test in local machine and did not consider the distrubted architecture as test for 1 min and very low load
 	
