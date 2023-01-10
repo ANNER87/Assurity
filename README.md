@@ -81,10 +81,15 @@ Summary
 Observation:
 
 #The following was 90th Percentile respponse time during 4 round of test execution
+
 	Test 1 - 454ms - Within SLA of 500ms
+	
 	Test 2 - 504ms - Exceeded SLA of 500ms
+	
 	Test 3 - 453ms - Within SLA of 500ms
+	
 	Test 4 - 418ms - Within SLA of 500ms - Executed via Non GUI mode
+	
 	
 #Test was executed only for 1 min and ramp up was just 5 second with 5 virtual users. Response time will get more accurate if the test execute for longer duration as the data set will get increased.
 	
@@ -92,7 +97,19 @@ Observation:
 
 
 
-        
+Files in the Repo
+
+Script - JMeter Script "Assignment_AnnRoshaliSilva.jmx"
+
+Test Data -CSV file "TestData_CategoryID.csv"
+
+Test Results 
+
+	Print files - All the files printed with correlations values for each test execution.
+	
+	Aggregate Test - The files with Aggreate test logs and aggreate results table for each test execution.
+	
+	
 	
 	
 	
