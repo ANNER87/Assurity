@@ -35,7 +35,7 @@ Step1 : In the test plan all the values needed for test execution have been para
 	
         pThreadcount - No of threads/ VUsers required for testing (In the assignment asked for half of category ID counts, it was 10 category IDs, therefore used 5 as threadcount) This is used in Ultimate Thread Group - This is used in Constant Througput timer
 	
-	pServer- Also parameterized the server details
+	 pServer- Also parameterized the server details
 	
 	
 Step 2: The following paths need to be changed in the scripts after downloading.
