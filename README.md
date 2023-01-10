@@ -56,10 +56,14 @@ Then open the command Prompt and change the directory to JMeter Bin and execute 
          jmeter -n -t <jmx file name with path> -l <log file name with path>
 
          Example: C:\Program Files\apache-jmeter-5.5\bin>jmeter -n -t Assignment_AnnRoshaliSilva.jmx -l testresult.jtl
+	 
+	 **To generate the HTML report when execute through Non GUI mode
+	 
+	 jmeter -n -t <jmx file name with path> -l <log file name with path> -e -o <path of folder to save HTML report>
+	 
+	 Example: C:\Program Files\apache-jmeter-5.5\bin>jmeter -n -t Assignment_AnnRoshaliSilva.jmx -l testresult.jtl -e -o C:\HTMLReport
 
 
-
-	
 Test Results
 
         
@@ -110,10 +114,18 @@ Test Results
         
         JTL file of the results of Non GUI mode  - testresult.jtl - This one can be opend from JMeter tool as well
         
+	HTML Report - Genarted the HTML report from the Non GUI test results as an additional thing as test round 5 which has not considred for the analysis
+	
+	
+Assumptions
 
-	
-	
-	
+	**There were 10 category IDs so considered half the count and take the VUser count as 5 
+
+ 	**Did not considred ramp down time
+
+	**Added HTTP Cache manager and Cookie Manger to simulate the borwser behaviour
+
+ 	**Executed the test in local machine and did not consider the distrubted architecture as test for 1 min and very low load
 	
 	
 	
