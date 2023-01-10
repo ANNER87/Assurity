@@ -4,7 +4,6 @@ To upload the performance Assignment with Assurity
 #Performance Assignment#
 
 
-
 Install JMeter
 
 
@@ -108,6 +107,10 @@ Test Results
 	Print files - All the files printed with correlations values for each test execution.
 	
 	Aggregate Test - The files with Aggreate test logs and aggreate results table for each test execution.
+        
+        JTL file of the results of Non GUI mode  - testresult.jtl - This one can be opend from JMeter tool as well
+        
+
 	
 	
 	
